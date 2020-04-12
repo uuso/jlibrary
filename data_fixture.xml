@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="auth.permission" pk="1">
+        <field name="name" type="CharField">Can add log entry</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+        <field name="codename" type="CharField">add_logentry</field>
+    </object>
+    <object model="auth.permission" pk="2">
+        <field name="name" type="CharField">Can change log entry</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+        <field name="codename" type="CharField">change_logentry</field>
+    </object>
+    <object model="auth.permission" pk="3">
+        <field name="name" type="CharField">Can delete log entry</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+        <field name="codename" type="CharField">delete_logentry</field>
+    </object>
+    <object model="auth.permission" pk="4">
+        <field name="name" type="CharField">Can view log entry</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+        <field name="codename" type="CharField">view_logentry</field>
+    </object>
+    <object model="auth.permission" pk="5">
+        <field name="name" type="CharField">Can add permission</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+        <field name="codename" type="CharField">add_permission</field>
+    </object>
+    <object model="auth.permission" pk="6">
+        <field name="name" type="CharField">Can change permission</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+        <field name="codename" type="CharField">change_permission</field>
+    </object>
+    <object model="auth.permission" pk="7">
+        <field name="name" type="CharField">Can delete permission</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+        <field name="codename" type="CharField">delete_permission</field>
+    </object>
+    <object model="auth.permission" pk="8">
+        <field name="name" type="CharField">Can view permission</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+        <field name="codename" type="CharField">view_permission</field>
+    </object>
+    <object model="auth.permission" pk="9">
+        <field name="name" type="CharField">Can add group</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+        <field name="codename" type="CharField">add_group</field>
+    </object>
+    <object model="auth.permission" pk="10">
+        <field name="name" type="CharField">Can change group</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+        <field name="codename" type="CharField">change_group</field>
+    </object>
+    <object model="auth.permission" pk="11">
+        <field name="name" type="CharField">Can delete group</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+        <field name="codename" type="CharField">delete_group</field>
+    </object>
+    <object model="auth.permission" pk="12">
+        <field name="name" type="CharField">Can view group</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+        <field name="codename" type="CharField">view_group</field>
+    </object>
+    <object model="auth.permission" pk="13">
+        <field name="name" type="CharField">Can add user</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+        <field name="codename" type="CharField">add_user</field>
+    </object>
+    <object model="auth.permission" pk="14">
+        <field name="name" type="CharField">Can change user</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+        <field name="codename" type="CharField">change_user</field>
+    </object>
+    <object model="auth.permission" pk="15">
+        <field name="name" type="CharField">Can delete user</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+        <field name="codename" type="CharField">delete_user</field>
+    </object>
+    <object model="auth.permission" pk="16">
+        <field name="name" type="CharField">Can view user</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+        <field name="codename" type="CharField">view_user</field>
+    </object>
+    <object model="auth.permission" pk="17">
+        <field name="name" type="CharField">Can add content type</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+        <field name="codename" type="CharField">add_contenttype</field>
+    </object>
+    <object model="auth.permission" pk="18">
+        <field name="name" type="CharField">Can change content type</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+        <field name="codename" type="CharField">change_contenttype</field>
+    </object>
+    <object model="auth.permission" pk="19">
+        <field name="name" type="CharField">Can delete content type</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+        <field name="codename" type="CharField">delete_contenttype</field>
+    </object>
+    <object model="auth.permission" pk="20">
+        <field name="name" type="CharField">Can view content type</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+        <field name="codename" type="CharField">view_contenttype</field>
+    </object>
+    <object model="auth.permission" pk="21">
+        <field name="name" type="CharField">Can add session</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+        <field name="codename" type="CharField">add_session</field>
+    </object>
+    <object model="auth.permission" pk="22">
+        <field name="name" type="CharField">Can change session</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+        <field name="codename" type="CharField">change_session</field>
+    </object>
+    <object model="auth.permission" pk="23">
+        <field name="name" type="CharField">Can delete session</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+        <field name="codename" type="CharField">delete_session</field>
+    </object>
+    <object model="auth.permission" pk="24">
+        <field name="name" type="CharField">Can view session</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+        <field name="codename" type="CharField">view_session</field>
+    </object>
+    <object model="auth.permission" pk="25">
+        <field name="name" type="CharField">Can add author</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="codename" type="CharField">add_author</field>
+    </object>
+    <object model="auth.permission" pk="26">
+        <field name="name" type="CharField">Can change author</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="codename" type="CharField">change_author</field>
+    </object>
+    <object model="auth.permission" pk="27">
+        <field name="name" type="CharField">Can delete author</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="codename" type="CharField">delete_author</field>
+    </object>
+    <object model="auth.permission" pk="28">
+        <field name="name" type="CharField">Can view author</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="codename" type="CharField">view_author</field>
+    </object>
+    <object model="auth.permission" pk="29">
+        <field name="name" type="CharField">Can add book</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="codename" type="CharField">add_book</field>
+    </object>
+    <object model="auth.permission" pk="30">
+        <field name="name" type="CharField">Can change book</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="codename" type="CharField">change_book</field>
+    </object>
+    <object model="auth.permission" pk="31">
+        <field name="name" type="CharField">Can delete book</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="codename" type="CharField">delete_book</field>
+    </object>
+    <object model="auth.permission" pk="32">
+        <field name="name" type="CharField">Can view book</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="codename" type="CharField">view_book</field>
+    </object>
+    <object model="auth.permission" pk="33">
+        <field name="name" type="CharField">Can add genre</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="codename" type="CharField">add_genre</field>
+    </object>
+    <object model="auth.permission" pk="34">
+        <field name="name" type="CharField">Can change genre</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="codename" type="CharField">change_genre</field>
+    </object>
+    <object model="auth.permission" pk="35">
+        <field name="name" type="CharField">Can delete genre</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="codename" type="CharField">delete_genre</field>
+    </object>
+    <object model="auth.permission" pk="36">
+        <field name="name" type="CharField">Can view genre</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="codename" type="CharField">view_genre</field>
+    </object>
+    <object model="auth.permission" pk="37">
+        <field name="name" type="CharField">Can add publisher</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="codename" type="CharField">add_publisher</field>
+    </object>
+    <object model="auth.permission" pk="38">
+        <field name="name" type="CharField">Can change publisher</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="codename" type="CharField">change_publisher</field>
+    </object>
+    <object model="auth.permission" pk="39">
+        <field name="name" type="CharField">Can delete publisher</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="codename" type="CharField">delete_publisher</field>
+    </object>
+    <object model="auth.permission" pk="40">
+        <field name="name" type="CharField">Can view publisher</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="codename" type="CharField">view_publisher</field>
+    </object>
+    <object model="auth.permission" pk="41">
+        <field name="name" type="CharField">Can add story</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="codename" type="CharField">add_story</field>
+    </object>
+    <object model="auth.permission" pk="42">
+        <field name="name" type="CharField">Can change story</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="codename" type="CharField">change_story</field>
+    </object>
+    <object model="auth.permission" pk="43">
+        <field name="name" type="CharField">Can delete story</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="codename" type="CharField">delete_story</field>
+    </object>
+    <object model="auth.permission" pk="44">
+        <field name="name" type="CharField">Can view story</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="codename" type="CharField">view_story</field>
+    </object>
+    <object model="auth.user" pk="1">
+        <field name="password" type="CharField">pbkdf2_sha256$150000$UZQIYzk51CS2$q8vLYQ9bfbVNnVPS1rGod4WkbNvERNjuzJL+0eXxOkA=</field>
+        <field name="last_login" type="DateTimeField">2020-04-11T00:55:40.354093+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="username" type="CharField">one</field>
+        <field name="first_name" type="CharField"></field>
+        <field name="last_name" type="CharField"></field>
+        <field name="email" type="CharField"></field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2020-04-11T00:48:57.430437+00:00</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="sessions.session" pk="i7jfhmeqkybhlj2jc6pziy4xya9y5b0u">
+        <field name="session_data" type="TextField">NjI1NDk1ZWU5NGI2NWZiYzBhNDIzMjliNTJjZDQ2MzJlYmQxOTJjNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2ZTc1MmRjZjYwOGM3YzI0M2E0NGM0NTZmN2M1M2I0ZjhkYjcwYWZiIn0=</field>
+        <field name="expire_date" type="DateTimeField">2020-04-25T00:55:40.360492+00:00</field>
+    </object>
+    <object model="jbooks.publisher" pk="2">
+        <field name="name" type="CharField">Эксмо</field>
+    </object>
+    <object model="jbooks.publisher" pk="3">
+        <field name="name" type="CharField">Молодая гвардия</field>
+    </object>
+    <object model="jbooks.publisher" pk="4">
+        <field name="name" type="CharField">Советский писатель</field>
+    </object>
+    <object model="jbooks.publisher" pk="5">
+        <field name="name" type="CharField">Лениздат</field>
+    </object>
+    <object model="jbooks.publisher" pk="6">
+        <field name="name" type="CharField">Приокское книжное издательство</field>
+    </object>
+    <object model="jbooks.publisher" pk="7">
+        <field name="name" type="CharField">Детская литература</field>
+    </object>
+    <object model="jbooks.publisher" pk="8">
+        <field name="name" type="CharField">Советская литература</field>
+    </object>
+    <object model="jbooks.publisher" pk="9">
+        <field name="name" type="CharField">АСТ-ЛТД</field>
+    </object>
+    <object model="jbooks.genre" pk="3">
+        <field name="name" type="CharField">Фантастика</field>
+    </object>
+    <object model="jbooks.genre" pk="4">
+        <field name="name" type="CharField">Детский</field>
+    </object>
+    <object model="jbooks.genre" pk="5">
+        <field name="name" type="CharField">Роман</field>
+    </object>
+    <object model="jbooks.genre" pk="6">
+        <field name="name" type="CharField">Биография</field>
+    </object>
+    <object model="jbooks.genre" pk="7">
+        <field name="name" type="CharField">Технический</field>
+    </object>
+    <object model="jbooks.genre" pk="8">
+        <field name="name" type="CharField">Образование</field>
+    </object>
+    <object model="jbooks.genre" pk="9">
+        <field name="name" type="CharField">Исторический</field>
+    </object>
+    <object model="jbooks.genre" pk="10">
+        <field name="name" type="CharField">Документальный</field>
+    </object>
+    <object model="jbooks.book" pk="6">
+        <field name="title" type="CharField">Д. Емец,  "Таня Гроттер и магический контрабас" [1/14] &lt;auto&gt;</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">2003</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">2</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVC</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">3</field>
+        <field name="volume_id" type="SmallIntegerField">1</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.book" pk="7">
+        <field name="title" type="CharField">Т3 ТГ Емец Пиявка</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">2003</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">2</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVC</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">3</field>
+        <field name="volume_id" type="SmallIntegerField">3</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="5"></object></field>
+    </object>
+    <object model="jbooks.book" pk="8">
+        <field name="title" type="CharField">Д. Емец,  "Таня Гроттер и трон Древнира" [4/14] &lt;auto&gt;</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">2003</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">2</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVC</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">3</field>
+        <field name="volume_id" type="SmallIntegerField">4</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="6"></object></field>
+    </object>
+    <object model="jbooks.book" pk="9">
+        <field name="title" type="CharField">Т5 ТГ Емец Волхвы</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">2003</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">2</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVC</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">3</field>
+        <field name="volume_id" type="SmallIntegerField">5</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="7"></object></field>
+    </object>
+    <object model="jbooks.book" pk="10">
+        <field name="title" type="CharField">Т6 ТГ Емец Перуна</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">2003</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">2</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVC</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">3</field>
+        <field name="volume_id" type="SmallIntegerField">6</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="8"></object></field>
+    </object>
+    <object model="jbooks.book" pk="11">
+        <field name="title" type="CharField">Т7 ТГ Емец Ной</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">2003</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">2</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVC</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">3</field>
+        <field name="volume_id" type="SmallIntegerField">7</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="9"></object></field>
+    </object>
+    <object model="jbooks.book" pk="12">
+        <field name="title" type="CharField">Сенкевич Г., Многотомник "Потоп", Том 1. &lt;auto&gt;</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField"><None></None></field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">9</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVS</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">10</field>
+        <field name="volume_id" type="SmallIntegerField">1</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"></field>
+    </object>
+    <object model="jbooks.book" pk="13">
+        <field name="title" type="CharField">Сенкевич Г., Многотомник "Потоп", Том 2. &lt;auto&gt;</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField"><None></None></field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">9</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVS</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story">10</field>
+        <field name="volume_id" type="SmallIntegerField">2</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"></field>
+    </object>
+    <object model="jbooks.book" pk="14">
+        <field name="title" type="CharField">Народные,  "Русская бытовая сказка" &lt;auto&gt;</field>
+        <field name="image_front" type="FileField"></field>
+        <field name="image_side" type="FileField"></field>
+        <field name="year_released" type="SmallIntegerField">1987</field>
+        <field name="publisher" rel="ManyToOneRel" to="jbooks.publisher">5</field>
+        <field name="comment" type="TextField"></field>
+        <field name="date_added" type="DateField">2020-04-12</field>
+        <field name="has_multivolume" type="CharField">MVF</field>
+        <field name="multivolume" rel="ManyToOneRel" to="jbooks.story"><None></None></field>
+        <field name="volume_id" type="SmallIntegerField">0</field>
+        <field name="stories" rel="ManyToManyRel" to="jbooks.story"><object pk="11"></object></field>
+    </object>
+    <object model="jbooks.story" pk="3">
+        <field name="title" type="CharField">Таня Гроттер</field>
+        <field name="is_multivolume" type="CharField">MVC</field>
+        <field name="volumes_count" type="SmallIntegerField">14</field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="4">
+        <field name="title" type="CharField">Таня Гроттер и магический контрабас</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="5">
+        <field name="title" type="CharField">Таня Гроттер и Золотая Пиявка</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="6">
+        <field name="title" type="CharField">Таня Гроттер и трон Древнира</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="7">
+        <field name="title" type="CharField">Таня Гроттер и посох волхвов</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="8">
+        <field name="title" type="CharField">Таня Гроттер и молот Перуна</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="9">
+        <field name="title" type="CharField">Таня Гроттер и пенсне Ноя</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="3"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="3"></object><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.story" pk="10">
+        <field name="title" type="CharField">Потоп</field>
+        <field name="is_multivolume" type="CharField">MVS</field>
+        <field name="volumes_count" type="SmallIntegerField">2</field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="4"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="5"></object><object pk="9"></object></field>
+    </object>
+    <object model="jbooks.story" pk="11">
+        <field name="title" type="CharField">Русская бытовая сказка</field>
+        <field name="is_multivolume" type="CharField">MVF</field>
+        <field name="volumes_count" type="SmallIntegerField"><None></None></field>
+        <field name="authors" rel="ManyToManyRel" to="jbooks.author"><object pk="5"></object></field>
+        <field name="genres" rel="ManyToManyRel" to="jbooks.genre"><object pk="4"></object></field>
+    </object>
+    <object model="jbooks.author" pk="3">
+        <field name="name_full" type="CharField">Емец Дмитрий</field>
+        <field name="name_short" type="CharField">Емец Д.</field>
+        <field name="country" type="CharField">РФ</field>
+    </object>
+    <object model="jbooks.author" pk="4">
+        <field name="name_full" type="CharField">Сенкевич Генрик</field>
+        <field name="name_short" type="CharField">Сенкевич Г.</field>
+        <field name="country" type="CharField">Польша</field>
+    </object>
+    <object model="jbooks.author" pk="5">
+        <field name="name_full" type="CharField">Русские народные</field>
+        <field name="name_short" type="CharField">Народные</field>
+        <field name="country" type="CharField">Россия</field>
+    </object>
+    <object model="admin.logentry" pk="1">
+        <field name="action_time" type="DateTimeField">2020-04-11T01:08:00.964375+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">Author object (1)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="2">
+        <field name="action_time" type="DateTimeField">2020-04-11T01:09:26.000890+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">Genre object (1)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="3">
+        <field name="action_time" type="DateTimeField">2020-04-11T01:10:47.164900+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">chipovan</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="4">
+        <field name="action_time" type="DateTimeField">2020-04-11T01:11:02.368343+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">ooo more knig</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="5">
+        <field name="action_time" type="DateTimeField">2020-04-11T01:11:43.154201+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">Story object (1)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="6">
+        <field name="action_time" type="DateTimeField">2020-04-11T01:34:01.206812+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">Author object (1)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["name_short"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="7">
+        <field name="action_time" type="DateTimeField">2020-04-11T12:29:18.107685+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">Book object (1)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="8">
+        <field name="action_time" type="DateTimeField">2020-04-11T12:36:52.367639+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">Author object (2)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="9">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:52:49.809371+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">"Война и мир" Л.Н. Толстой</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="10">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:56:26.602559+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">Book object (2)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="11">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:56:42.814731+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">Book object (2)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="12">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:57:05.263383+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Book object (3)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="13">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:57:40.509154+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Book object (4)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="14">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:58:15.676014+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">5</field>
+        <field name="object_repr" type="CharField">Book object (5)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="15">
+        <field name="action_time" type="DateTimeField">2020-04-11T20:59:16.130092+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">"Война и мир" Л.Н. Толстой</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[]</field>
+    </object>
+    <object model="admin.logentry" pk="16">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:01:58.660239+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="17">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:02:48.667819+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Фантастика</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="18">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:02:58.111095+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Детская</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="19">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:04:15.236341+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер" </field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="20">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:06:07.686118+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер и магический контрабас" Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="21">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:07:39.214579+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">Эксмо</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="22">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:10:27.418550+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">6</field>
+        <field name="object_repr" type="CharField">Book object (6)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="23">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:13:41.850795+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">5</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер и Золотая Пиявка" Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="24">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:14:00.449441+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">7</field>
+        <field name="object_repr" type="CharField">Book object (7)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="25">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:14:40.154947+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">6</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер и трон Древнира" Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="26">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:15:06.707824+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">Book object (8)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="27">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:15:49.209619+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">7</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер и посох волхвов" Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="28">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:16:03.780626+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">9</field>
+        <field name="object_repr" type="CharField">Book object (9)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="29">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:16:44.894884+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер и молот Перуна" Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="30">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:17:50.446837+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">10</field>
+        <field name="object_repr" type="CharField">Book object (10)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="31">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:18:24.293978+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">9</field>
+        <field name="object_repr" type="CharField">"Таня Гроттер и пенсне Ноя" Д. Емец</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="32">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:18:50.393174+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">11</field>
+        <field name="object_repr" type="CharField">Book object (11)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="33">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:26:33.663260+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Молодая гвардия</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="34">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:26:45.408684+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Советский писатель</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="35">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:26:53.885846+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">5</field>
+        <field name="object_repr" type="CharField">Лениздат</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="36">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:27:11.690418+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">6</field>
+        <field name="object_repr" type="CharField">Приокское книжное издательство</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="37">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:27:32.372511+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">7</field>
+        <field name="object_repr" type="CharField">Детская литература</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="38">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:27:40.923405+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">Советская литература</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="39">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:27:55.076928+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">ooo more knig</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="40">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:28:19.258813+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">Book object (1)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="41">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:28:32.220739+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">au1</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="42">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:28:51.746545+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">chipovan</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="43">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:28:51.755500+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">roman</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="44">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:30:40.001349+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">5</field>
+        <field name="object_repr" type="CharField">Book object (5)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="45">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:30:40.007121+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Book object (4)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="46">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:30:40.012256+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Book object (3)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="47">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:31:00.979545+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">"Война и мир" Л.Н. Толстой</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="48">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:31:00.986521+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">1</field>
+        <field name="object_repr" type="CharField">"sobaka" </field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="49">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:31:14.071281+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">2</field>
+        <field name="object_repr" type="CharField">Л.Н. Толстой</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+        <field name="change_message" type="TextField"></field>
+    </object>
+    <object model="admin.logentry" pk="50">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:31:32.627634+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">5</field>
+        <field name="object_repr" type="CharField">Роман</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="51">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:31:42.756759+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">6</field>
+        <field name="object_repr" type="CharField">Биография</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="52">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:31:52.071962+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">7</field>
+        <field name="object_repr" type="CharField">Техническая</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="53">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:32:02.954927+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">Образование</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="54">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:32:47.568438+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+        <field name="object_id" type="TextField">9</field>
+        <field name="object_repr" type="CharField">АСТ-ЛТД</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="55">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:35:13.282641+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Сенкевич Г.</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="56">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:35:42.130450+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">9</field>
+        <field name="object_repr" type="CharField">Исторический</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="57">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:36:16.541156+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">10</field>
+        <field name="object_repr" type="CharField">"Потоп" Сенкевич Г.</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="58">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:36:32.978528+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">12</field>
+        <field name="object_repr" type="CharField">Book object (12)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="59">
+        <field name="action_time" type="DateTimeField">2020-04-11T21:37:00.688582+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">13</field>
+        <field name="object_repr" type="CharField">Book object (13)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="60">
+        <field name="action_time" type="DateTimeField">2020-04-11T22:09:10.109668+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">10</field>
+        <field name="object_repr" type="CharField">Документальный</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="61">
+        <field name="action_time" type="DateTimeField">2020-04-11T22:09:28.417734+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">7</field>
+        <field name="object_repr" type="CharField">Технический</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["name"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="62">
+        <field name="action_time" type="DateTimeField">2020-04-11T22:09:35.596677+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Детский</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["name"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="63">
+        <field name="action_time" type="DateTimeField">2020-04-11T22:15:23.132650+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">5</field>
+        <field name="object_repr" type="CharField">Народные</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="64">
+        <field name="action_time" type="DateTimeField">2020-04-11T22:19:39.349809+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">11</field>
+        <field name="object_repr" type="CharField">"Русская бытовая сказка" Народные</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="65">
+        <field name="action_time" type="DateTimeField">2020-04-11T22:20:32.752669+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">14</field>
+        <field name="object_repr" type="CharField">Book object (14)</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+        <field name="change_message" type="TextField">[{"added": {}}]</field>
+    </object>
+    <object model="admin.logentry" pk="66">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:33:54.621823+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">8 :: Цикл книг "Таня Гроттер", . &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="67">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:34:22.145585+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">12</field>
+        <field name="object_repr" type="CharField">12 :: Многотомник "Потоп", Сенкевич Г.. Том 1. &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="68">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:36:08.653763+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">8 ::  "Таня Гроттер и трон Древнира", Д. Емец. &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="69">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:40:22.362203+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">8 ::  "Таня Гроттер и трон Древнира", Д. Емец. [4/14] &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="70">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:40:36.917609+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">12</field>
+        <field name="object_repr" type="CharField">12 :: Многотомник "Потоп", Сенкевич Г. Том 1. &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="71">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:42:49.841749+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">12</field>
+        <field name="object_repr" type="CharField">12 :: Сенкевич Г. Многотомник "Потоп", Том 1. &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="72">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:43:31.449991+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">8</field>
+        <field name="object_repr" type="CharField">8 :: Д. Емец,  "Таня Гроттер и трон Древнира" [4/14] &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="73">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:44:15.260801+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Д. Емец, Цикл книг "Таня Гроттер"</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["authors"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="74">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:44:31.019673+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">13</field>
+        <field name="object_repr" type="CharField">13 :: Сенкевич Г., Многотомник "Потоп", Том 2. &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="75">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:44:40.567864+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">12</field>
+        <field name="object_repr" type="CharField">12 :: Сенкевич Г., Многотомник "Потоп", Том 1. &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="76">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:44:45.926581+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">14</field>
+        <field name="object_repr" type="CharField">14 :: Народные,  "Русская бытовая сказка" &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="77">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:45:10.990723+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+        <field name="object_id" type="TextField">6</field>
+        <field name="object_repr" type="CharField">6 :: Д. Емец,  "Таня Гроттер и магический контрабас" [1/14] &lt;auto&gt;</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["title"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="78">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:46:52.768595+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">3</field>
+        <field name="object_repr" type="CharField">Емец Д.</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[{"changed": {"fields": ["name_full", "name_short"]}}]</field>
+    </object>
+    <object model="admin.logentry" pk="79">
+        <field name="action_time" type="DateTimeField">2020-04-12T12:47:01.527700+00:00</field>
+        <field name="user" rel="ManyToOneRel" to="auth.user">1</field>
+        <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+        <field name="object_id" type="TextField">4</field>
+        <field name="object_repr" type="CharField">Сенкевич Г.</field>
+        <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+        <field name="change_message" type="TextField">[]</field>
+    </object>
+</django-objects>

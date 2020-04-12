@@ -1,5 +1,6 @@
 .env
 .vscode/
+.pylintrc
 __pycache__/
 venv/
 db.sqlite3

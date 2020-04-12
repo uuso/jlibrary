@@ -12,10 +12,11 @@ class AuthorAdmin(admin.ModelAdmin):
 
 @admin.register(Story)
 class StoryAdmin(admin.ModelAdmin):
-    list_display = ("title", "list_authors", "list_genres", )
+    list_display = ("title", "is_multivolume", "volumes_count",
+                    "list_authors", "list_genres", )
 
 
 @admin.register(Book)
 class BookAdmin(admin.ModelAdmin):
-    list_display = ("title", "list_stories", "date_added", )
-    # list_display = ("title", "list_stories", "date_added", "multivolume", )
+    list_display = ("title", "has_multivolume", "multivolume",
+                    "volume_id", "list_stories", "multivolume_check")
