@@ -3,5 +3,6 @@
 .pylintrc
 __pycache__/
 venv/
-db.sqlite3
+*.sqlite3
 migrations/
+media/
