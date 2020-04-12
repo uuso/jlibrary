@@ -44,22 +44,21 @@ class Genre(models.Model):
         return self.name
 
 
-class Book(models.Model):
+def upload_img_front(instance, filename):
+    _, fext = os.path.splitext(filename)
+    return "books/{}/front{}".format(instance.pk, fext)
 
+def upload_img_side(instance, filename):
+    _, fext = os.path.splitext(filename)
+    return "books/{}/side{}".format(instance.pk, fext)
+
+
+class Book(models.Model):
     MULTIVOLUME_CHOICES = [
         (MULTIVOLUME_STORY, "Один из нескольких томов"),
         (MULTIVOLUME_CYCLE, "Одна из нескольких книг серии"),
         (MULTIVOLUME_FALSE, "Самостоятельная книга"),
     ]
-
-    def upload_img_front(self, instance, filename):
-        _, fext = os.path.splitext(filename)
-        return "books/{}/front{}".format(instance.pk, fext)
-
-    def upload_img_side(self, instance, filename):
-        _, fext = os.path.splitext(filename)
-        return "books/{}/side{}".format(instance.pk, fext)
-
 
     title = models.CharField(max_length=100, blank=True)
     image_front = models.ImageField(upload_to=upload_img_front, blank=True)
